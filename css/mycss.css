@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+}
+nav{
+    margin: 50px;
+    margin-left: 1200px;
+}
+a:hover {
+    background-color: #79B331;
+}
+ul{
+    display: flex;
+}
+li a{
+    margin: 10px;
+    padding: 20px;
+    color: #000000;
+    width: 50px;
+    border-radius: 0 35px 0 35px;
+    background-color: #c4c4c4;
+}
+.didi{
+    height: 400px;
+    width: 1000px;
+    margin-left: 903px;
+    margin-top:90px; 
+}
+.xazi{
+    height: 600px;
+    width: 1px;
+    background-color: #c4c4c4;
+    margin: 0 auto;
+}
+.text1{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin-top: -600px;
+}
+.potoli1{
+    width: 80px;
+    border-radius: 0 50% 0 50%;
+    background-color: #c4c4c4;
+}
+.text:hover .potoli{
+    background-color: #79B331;
+}
+.text:hover p{
+    color:#79B331;
+}
+.text2{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text p{
+    width: 350px;
+}
+.potoli{
+    width: 80px;
+    height: 80px;
+    border-radius:  0 50% 0 50% ;
+    background-color: #c4c4c4;
+}
+.rigth{
+    transform: rotate(90deg);
+}
+.text3{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin-top: 100px;
+}
+.text4{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.aqcia{
+    width: 430px;
+    height: 190px;
+    background-color: gold;
+    margin-left: 1200px;
+    margin-top: 60px;
+    
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    background-color: #79B331;
+    border-radius: 50%;
+    position: relative;
+    animation: chemianimacia 10s infinite ;
+}
+@keyframes chemianimacia {
+    0%{top: 0px; left: 0px;}
+    25%{top: 0px; left: 398px;}
+    50%{top: 158px; left: 398px;}
+    75%{top: 158px; left: 0px;}
+    100%{top: 0px; left: 0px;}
+}
+.aqciatext{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+#time{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 36px; 
+}
